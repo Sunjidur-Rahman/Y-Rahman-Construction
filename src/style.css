@@ -67,7 +67,7 @@ body {
 
 /* Hero Section */
 .hero {
-  background: url('../Image/Backgroundimageservices.jpg') no-repeat center center/cover;
+  background: url('/src/Image/Backgroundimageservices.jpg') no-repeat center center/cover;
   min-height: 80vh;         /* Ensures full screen height */
   width: 100%;               /* Full width of the screen */
   display: flex;
@@ -422,7 +422,7 @@ body {
 
 /* Contact Section with Background */
 #contact {
-  background-image: url('../Image/Contact-Background.jpg'); /* Change to your actual image path */
+  background-image: url('/src/Image/Contact-Background.jpg'); /* Change to your actual image path */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -497,7 +497,7 @@ button:hover {
   grid-template-columns: 1fr auto 1fr; /* Map | Social Icons | Contact Info */
   align-items: center;
   gap: 30px;
-  background-image: url('../Image/Background-contact.jpg');
+  background-image: url('/src/Image/Background-contact.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
